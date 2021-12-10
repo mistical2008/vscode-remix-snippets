@@ -1,0 +1,45 @@
+{
+  "name": "vscode-remix-snippets",
+  "version": "0.0.1",
+  "author": "Evgeniy Talko <etalko@gmail.com>",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "displayName": "Remix.run snippets",
+  "description": "Remix.run snippets for VS Code",
+  "homepage": "https://github.com/mistical2008/vscode-remix-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mistical2008/vscode-remix-snippets"
+  },
+  "publisher": "Evgeniy Talko",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "galleryBanner": {
+    "color": "#E6E0EA",
+    "theme": "light"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
